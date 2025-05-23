@@ -69,11 +69,11 @@
     hyper {
       display-name = "Hyper";
       bindings = <
-        &trans      &trans &trans  &trans          &trans      &trans  &trans                                            &mo 3  &trans  &trans  &trans  &trans   &trans  &trans
-        &kp F24     &trans &trans  &kp LG(E)       &kp LG(R)   &kp F20 &trans                                            &trans &trans  &trans  &trans  &trans   &kp F17 &trans
-        &kp LG(L)   &trans &trans  &trans          &trans      &trans  &trans        &trans &trans &trans  &trans        &trans &kp F13 &kp F14 &kp F15 &kp F16  &trans  &trans
-        &trans      &trans &kp F23 &kp F22         &trans      &kp F21                      &trans &kp F18                      &trans  &trans  &trans  &trans   &trans  &trans
-        &trans      &trans &trans  &trans          &trans                     &trans &trans &trans &kp F19 &trans &trans                &trans  &trans  &trans   &trans  &trans
+        &trans      &trans &trans     &trans          &trans      &trans  &trans                                            &mo 3  &trans  &trans  &trans  &trans   &trans  &trans
+        &kp F24     &trans &trans     &kp LG(E)       &kp LG(R)   &kp F20 &trans                                            &trans &trans  &trans  &trans  &trans   &kp F17 &trans
+        &kp LG(L)   &trans &kp LG(D)  &trans          &trans      &trans  &trans        &trans &trans &trans  &trans        &trans &kp F13 &kp F14 &kp F15 &kp F16  &trans  &trans
+        &trans      &trans &kp F23    &kp F22         &trans      &kp F21                      &trans &kp F18                      &trans  &trans  &trans  &trans   &trans  &trans
+        &trans      &trans &trans     &trans          &trans                     &trans &trans &trans &kp F19 &trans &trans                &trans  &trans  &trans   &trans  &trans
       >;
     };
     extra1 { 
