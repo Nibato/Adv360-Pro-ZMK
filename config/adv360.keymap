@@ -30,6 +30,7 @@
           require-prior-idle-ms = <0>;
           bindings = <&mo>, <&kp>;
           hold-while-undecided-linger; 
+          retro-tap;
       };
     };
 
