@@ -36,14 +36,14 @@
       vdp: vdesk_prev {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
-        bindings = <&kp LG(LC(LEFT))>, <&kp F18)>;
+        bindings = <&kp LG(LC(LEFT))>, <&kp F18>;
         mods = <(MOD_LALT|MOD_RALT)>;
       };
 
       vdn: vdesk_next {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
-        bindings = <&kp LG(LC(RIGHT))>, <&kp F19)>;
+        bindings = <&kp LG(LC(RIGHT))>, <&kp F19>;
         mods = <(MOD_LALT|MOD_RALT)>;
       };
 
@@ -118,9 +118,9 @@
     hyper {
       display-name = "Hyper";
       bindings = <
-        &kp LC(LS(ESC)) &none      &none      &none           &none       &none   &none                                                      &none      &none            &none        &none       &none             &none             &none
+        &kp LC(LS(ESC)) &none      &none      &kp LC(LG(F4))  &none       &none   &none                                                      &none      &none            &none        &none       &none             &none             &none
         &kp LG(TAB)     &kp LA(F4) &none      &kp LG(E)       &kp LG(R)   &kp F20 &none                                                      &none      &none            &none        &none       &none             &kp F17           &none
-        &kp LG(L)       &none      &none      &kp LG(D)       &none       &none   &hp 4 LGUI    &kp LCTRL &kp LALT &kp RALT    &kp RCTRL     &hp 4 RGUI &wdp             &none        &none       &wdn              &none             &none
+        &kp LG(L)       &none      &none      &kp LC(LG(D))   &none       &none   &hp 4 LGUI    &kp LCTRL &kp LALT &kp RALT    &kp RCTRL     &hp 4 RGUI &wdp             &none        &none       &wdn              &none             &none
         &kp LSHFT       &none      &kp F23    &kp F22         &none       &kp F21                         &none    &vdp                                 &none            &none        &kp LG(I)   &none             &none             &kp RSHFT
         &none           &none      &none      &none           &none                      &none  &none     &none    &vdn        &none  &none                              &none        &none       &none             &none             &none
       >;
