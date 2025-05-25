@@ -33,15 +33,15 @@
           retro-tap;
       };
 
-      vdp: vdp {
-        compatible = "zmk,behaviour-mod-morph";
+      vdp: vdesk_prev {
+        compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp LG(LC(LEFT))>, <&kp LG(LS(LEFT))>;
         mods = <(MOD_LALT|MOD_RALT)>;
       };
 
-      vdn: vdn {
-        compatible = "zmk,behaviour-mod-morph";
+      vdn: vdesk_next {
+        compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp LG(LC(RIGHT))>, <&kp LG(LS(RIGHT))>;
         mods = <(MOD_LALT|MOD_RALT)>;
