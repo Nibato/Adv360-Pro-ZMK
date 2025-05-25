@@ -36,14 +36,14 @@
       vdp: vdesk_prev {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
-        bindings = <&kp LG(LC(LEFT))>, <&kp LG(LC(LEFT))>;
+        bindings = <&kp LG(LC(LEFT))>, <&kp F18)>;
         mods = <(MOD_LALT|MOD_RALT)>;
       };
 
       vdn: vdesk_next {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
-        bindings = <&kp LG(LC(RIGHT))>, <&kp LG(LC(RIGHT))>;
+        bindings = <&kp LG(LC(RIGHT))>, <&kp F19)>;
         mods = <(MOD_LALT|MOD_RALT)>;
       };
 
