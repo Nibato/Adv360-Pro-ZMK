@@ -45,7 +45,21 @@
         #binding-cells = <0>;
         bindings = <&kp LG(LC(RIGHT))>, <&kp LG(LC(LS(RIGHT)))>;
         mods = <(MOD_LALT|MOD_RALT)>;
-     };
+      };
+
+      wdp: wind_prev {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp LA(TAB)>, <&kp LG(LS(LEFT))>;
+        mods = <(MOD_LALT|MOD_RALT)>;
+      };
+
+      wdn: wind_next {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp LS(LA(TAB))>, <&kp LG(LS(RIGHT))>;
+        mods = <(MOD_LALT|MOD_RALT)>;
+      };
     };
 
   keymap {
@@ -106,7 +120,7 @@
       bindings = <
         &kp LC(LS(ESC)) &none      &none      &none           &none       &none   &none                                                      &none      &none            &none        &none       &none             &none             &none
         &kp LG(TAB)     &kp LA(F4) &none      &kp LG(E)       &kp LG(R)   &kp F20 &none                                                      &none      &none            &none        &none       &none             &kp F17           &none
-        &kp LG(L)       &none      &none      &kp LG(D)       &none       &none   &hp 4 LGUI    &kp LCTRL &kp LALT &kp RALT    &kp RCTRL     &hp 4 RGUI &kp LA(TAB)      &none        &none       &kp LS(LA(RIGHT)) &none             &none
+        &kp LG(L)       &none      &none      &kp LG(D)       &none       &none   &hp 4 LGUI    &kp LCTRL &kp LALT &kp RALT    &kp RCTRL     &hp 4 RGUI &wdp             &none        &none       &wdn              &none             &none
         &kp LSHFT       &none      &kp F23    &kp F22         &none       &kp F21                         &none    &vdp                                 &none            &none        &kp LG(I)   &none             &none             &kp RSHFT
         &none           &none      &none      &none           &none                      &none  &none     &none    &vdn        &none  &none                              &none        &none       &none             &none             &none
       >;
