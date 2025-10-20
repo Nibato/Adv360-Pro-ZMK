@@ -80,7 +80,7 @@
       bindings = <
         &trans     &trans &trans   &trans &trans &trans  &kp ESC                                         &trans     &trans &trans &trans &trans  &trans  &trans
         &trans     &trans &trans   &trans &trans &trans  &trans                                          &trans     &trans &trans &trans &trans  &trans  &trans
-        &kp RCTRL  &trans &trans   &trans &trans &trans  &trans       &trans &trans &trans &trans        &trans     &trans &trans &trans &trans  &trans  &trans
+        &kp A      &trans &trans   &trans &trans &trans  &trans       &trans &trans &trans &trans        &trans     &trans &trans &trans &trans  &trans  &trans
         &trans     &trans &trans   &trans &trans &trans                      &trans &trans                          &trans &trans &trans &trans  &trans  &trans
         &trans     &trans &trans   &trans &trans               &trans &trans &trans &trans &trans &trans                   &trans &trans &trans  &trans  &trans
       >;
