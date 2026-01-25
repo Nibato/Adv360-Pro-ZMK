@@ -78,11 +78,11 @@
     game {
       display-name = "Game";
       bindings = <
-        &kp ESC    &trans &trans   &trans &trans &trans  &kp EQUAL                                       &trans     &trans &trans &trans &trans  &trans  &trans
         &trans     &trans &trans   &trans &trans &trans  &trans                                          &trans     &trans &trans &trans &trans  &trans  &trans
-        &kp A      &trans &trans   &trans &trans &trans  &trans       &trans &trans &trans &trans        &trans     &trans &trans &trans &trans  &trans  &trans
+        &trans     &trans &trans   &trans &trans &trans  &trans                                          &trans     &trans &trans &trans &trans  &trans  &trans
+        &trans     &trans &trans   &trans &trans &trans  &trans       &trans &trans &trans &trans        &trans     &trans &trans &trans &trans  &trans  &trans
         &trans     &trans &trans   &trans &trans &trans                      &trans &trans                          &trans &trans &trans &trans  &trans  &trans
-        &trans     &trans &trans   &trans &trans               &trans &trans &trans &trans &trans &trans                   &trans &trans &trans  &trans  &trans
+        &trans     &trans &trans   &trans &trans                   &kp SPACE &kp SEMI &trans &trans &trans &trans   &trans &trans &trans  &trans  &trans
       >;
     };
     keypad {
